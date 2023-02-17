@@ -10,14 +10,14 @@ Config.Pedy = {
 }
 Config.Items = {
      Items = {
-		Legendaryitem = {Chance = 1, name = 'water', count = 1, exchangeacount = 1}, -- This item has a 1% to draw this item 
-		LegendaryReward = {name = 'arcade_barwnik2', count = 1}, -- This is item if you exchange to ped 
+		Legendaryitem = {Chance = 1, name = 'item-name', count = 1, exchangeacount = 1}, -- This item has a 1% to draw this item 
+		LegendaryReward = {name = 'item-name', count = 1}, -- This is item if you exchange to ped 
 
-		RareItem = {Chance = 1, name = 'burger', count = 1, exchangeacount = 1}, -- This item has a 25% to draw this item
-		RareReward = {name = 'ammo-9', count = 1}, -- This is item if you exchange to ped 
+		RareItem = {Chance = 74, name = 'item-name', count = 1, exchangeacount = 1}, -- This item has a 25% to draw this item
+		RareReward = {name = 'item-name', count = 1}, -- This is item if you exchange to ped 
 
-		CommonItem = {Chance = 24, name = 'phone', count = 1, exchangeacount = 1}, -- This item has a 74% to draw this item
-		CommonReward = {name = 'weapon_pistol', count = 1}, -- This is item if you exchange to ped 
+		CommonItem = {Chance = 24, name = 'item-name', count = 1, exchangeacount = 1}, -- This item has a 74% to draw this item
+		CommonReward = {name = 'item-name', count = 1}, -- This is item if you exchange to ped 
 	}
 }
 

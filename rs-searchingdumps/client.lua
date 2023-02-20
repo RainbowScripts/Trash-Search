@@ -123,7 +123,6 @@ Citizen.CreateThread(function()
       Citizen.Wait(200)
     end
       local ped =  CreatePed(4, v.Pos.ped, v.Pos.x, v.Pos.y, v.Pos.z-0.1, v.Pos.h, false, true)
-      SetEntityHeading(ped, v.Pos.h)
       FreezeEntityPosition(ped, true)
       SetEntityInvincible(ped, true)
       SetBlockingOfNonTemporaryEvents(ped, true)
